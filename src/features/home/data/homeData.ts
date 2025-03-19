@@ -1,0 +1,38 @@
+export const homeData = {
+  buttons: {
+    tellMessage: {
+      label: 'Tell your Message',
+      variant: 'secondary',
+      icon: 'PenLine',
+      route: '/create'
+    },
+    browseMessage: {
+      label: 'Browse the Message',
+      variant: 'default',
+      icon: 'Search',
+      route: '/browse'
+    }
+  },
+  messages: {
+    share: {
+      title: 'Share Your Message',
+      description:
+        'Write a special heartfelt message to someone special or save it as a little gift for yourself.'
+    },
+    browse: {
+      title: 'Browse Messages',
+      description:
+        'Find messages that were written for you. Search your name and uncover heartfelt messages written just for you.'
+    },
+    detail: {
+      title: 'Detail Messages',
+      description:
+        'Tap on any message card to discover the full story behind it and read emotionally to capture the emotion of the moment.'
+    }
+  },
+  quote: {
+    text: 'To love or have loved, that is enough. Ask nothing further.',
+    author: 'Victor Hugo',
+    source: 'Les Misérables'
+  }
+}
